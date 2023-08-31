@@ -29,10 +29,15 @@ Funcionalidade 10 - Deve exibir histórico de consulta do usuário.
 ## Equipe
 
 Elias Gomes Feliciano
+
 Leonardo Bacci
+
 Lucas Serrato
+
 Paulo Henrique Tenório
+
 Pedro Heryc
+
 Ricardo Allison Corpa Alfenas
 
 Professor: professor-enoqueleal (Enoque Leal)
