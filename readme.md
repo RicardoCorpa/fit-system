@@ -1,4 +1,4 @@
-# Projeto Integrador - Fit System - Calculadora Nutricional para os alunos do SENAC
+# Projeto Integrador - Fit System - Calculadora Nutricional & IMC para os alunos do SENAC
 
 ## Um projeto que consiste em desenvolver um site de orientção nutricional com uma calculadora IMC para controle de alimentação e saúde, com motivação de propagar e incentivar uma boa refeição por parte dos alunos do SENAC
 
