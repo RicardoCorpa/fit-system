@@ -30,9 +30,9 @@ Funcionalidade 10 - Deve exibir histórico de consulta do usuário.
 
 Elias Gomes Feliciano
 
-Leonardo Bacci
+Leonardo Oliveira Bacci da Silva
 
-Lucas Serrato
+Lucas Serrato Bonito
 
 Paulo Henrique Tenório
 
