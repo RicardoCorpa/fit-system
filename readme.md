@@ -47,6 +47,14 @@ Ricardo Allison Corpa Alfenas
 ![Carrinho]( /Imagens/carrinhos.jpeg)
 
 
+## Paleta de cores
+
+#00bf63
+#ed2024
+#3bbca1
+#000000
+
+
 
 Professor: professor-enoqueleal (Enoque Leal)
 
