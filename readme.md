@@ -40,5 +40,11 @@ Pedro Heryc
 
 Ricardo Allison Corpa Alfenas
 
+## Imagens Figma
+
+![carrinho!]("/Imagens/carrinhos.jpeg")
+
+
+
 Professor: professor-enoqueleal (Enoque Leal)
 
