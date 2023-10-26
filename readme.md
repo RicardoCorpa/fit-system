@@ -57,6 +57,23 @@ Ricardo Allison Corpa Alfenas
 
 #000000
 
+## Paleta de cores (Alternativa e gradiente)
+
+#163117
+
+#3ADC2C
+
+#3ADC2C
+
+#455947
+
+#8FE188
+
+#415250
+
+#02322C
+
+#D9D9D9
 
 
 Professor: professor-enoqueleal (Enoque Leal)
