@@ -50,8 +50,11 @@ Ricardo Allison Corpa Alfenas
 ## Paleta de cores
 
 #00bf63
+
 #ed2024
+
 #3bbca1
+
 #000000
 
 
