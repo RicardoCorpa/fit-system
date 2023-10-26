@@ -42,9 +42,9 @@ Ricardo Allison Corpa Alfenas
 
 ## Imagens Figma
 
-![carrinho!]("/Imagens/carrinhos.jpeg")
 
-![Carrinho]( "/Imagens/carrinhos.jpeg" "San Juan Mountains")
+
+![Carrinho]( /Imagens/carrinhos.jpeg)
 
 
 
