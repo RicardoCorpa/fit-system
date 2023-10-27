@@ -44,7 +44,7 @@ Ricardo Allison Corpa Alfenas
 
 
 
-![Carrinho]( /Imagens/carrinhos.jpeg)
+![Cadastro]( /Imagens/Cadastro.jpeg)
 
 
 ## Paleta de cores
