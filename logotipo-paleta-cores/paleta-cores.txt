@@ -1,0 +1,17 @@
+Paleta de cores (Aplicativo e logotipo)
+
+#00bf63
+#ed2024
+#3bbca1
+#000000
+
+Paleta de cores (Lâmpada)
+
+#163117
+#3ADC2C
+#3ADC2C
+#455947
+#8FE188
+#415250
+#02322C
+#D9D9D9
