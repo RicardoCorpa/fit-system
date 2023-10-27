@@ -1,0 +1,77 @@
+
+MySQL Code Structure
+
+
+CREATE TABLE Tabela_Nutricional (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Alimento VARCHAR(255) NOT NULL,
+    Categoria VARCHAR(255) NOT NULL,
+    Calorias FLOAT NOT NULL,
+    Proteinas FLOAT NOT NULL,
+    Gorduras FLOAT NOT NULL,
+    Carboidratos FLOAT NOT NULL
+);
+
+
+CREATE TABLE Cadastro_Aluno (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Email VARCHAR(255) NOT NULL,
+    Nome VARCHAR(255) NOT NULL,
+    Peso FLOAT NOT NULL,
+    Altura FLOAT NOT NULL,
+    Idade INT NOT NULL
+);
+
+
+
+
+INSERT INTO Tabela_Nutricional (Alimento, Categoria, Calorias, Proteinas, Gorduras, Carboidratos)
+VALUES
+    ('Pera', 'Frutas', 57, 0.6, 0.3, 15),
+    ('Bife de Frango', 'Carnes', 140, 26, 3.2, 0),
+    ('Ervilhas', 'Vegetais', 62, 4.2, 0.2, 11),
+    ('Leite de Amêndoa', 'Laticínios', 30, 1, 2.5, 1),
+    ('Castanha de Caju', 'Nozes', 157, 5, 12, 9),
+    ('Macarrão de Trigo Sarraceno', 'Massas', 186, 4, 1.5, 41),
+    ('Uva', 'Frutas', 69, 0.6, 0.2, 18),
+    ('Costeleta de Porco', 'Carnes', 235, 23, 15, 0),
+    ('Cevada', 'Grãos', 354, 12, 2, 73),
+    ('Coco', 'Frutas', 354, 3.4, 33, 15),
+    ('Truta', 'Peixes', 119, 20, 4.5, 0),
+    ('Espaguete de Trigo Integral', 'Massas', 180, 7, 1, 39),
+    ('Peito de Peru', 'Carnes', 135, 29, 1, 0),
+    ('Abobrinha', 'Vegetais', 33, 1.2, 0.6, 7),
+    ('Moranga', 'Vegetais', 50, 1, 0.2, 12),
+    ('Queijo Suíço', 'Laticínios', 111, 7, 9, 2),
+    ('Salmão Enlatado', 'Peixes', 180, 39, 5.8, 0),
+    ('Lentilhas Vermelhas', 'Leguminosas', 140, 9, 0.5, 27),
+    ('Cereja', 'Frutas', 50, 1, 0.3, 12),
+    ('Pão de Milho', 'Grãos', 65, 2, 1, 13);
+
+INSERT INTO Cadastro_Aluno (Email, Nome, Peso, Altura, Idade)
+VALUES
+    ('aluno41@example.com', 'Luana Lima', 58.3, 165, 26),
+    ('aluno42@example.com', 'Gabriel Silva', 76.2, 179, 28),
+    ('aluno43@example.com', 'Júlia Rodrigues', 61.8, 167, 25),
+    ('aluno44@example.com', 'Lucas Costa', 81.5, 181, 29),
+    ('aluno45@example.com', 'Isabela Almeida', 55.9, 163, 24),
+    ('aluno46@example.com', 'Matheus Pereira', 88.4, 185, 31),
+    ('aluno47@example.com', 'Larissa Oliveira', 54.2, 161, 22),
+    ('aluno48@example.com', 'Bruno Santos', 70.6, 175, 27),
+    ('aluno49@example.com', 'Mariana Alves', 63.4, 168, 26),
+    ('aluno50@example.com', 'Rafael Silva', 89.7, 186, 32),
+    ('aluno51@example.com', 'Camila Rodrigues', 56.7, 164, 23),
+    ('aluno52@example.com', 'Gustavo Almeida', 77.1, 178, 28),
+    ('aluno53@example.com', 'Sofia Oliveira', 53.8, 162, 23),
+    ('aluno54@example.com', 'Diego Costa', 90.9, 187, 33),
+    ('aluno55@example.com', 'Juliana Lima', 58.2, 166, 27),
+    ('aluno56@example.com', 'Tiago Rodrigues', 73.5, 177, 29),
+    ('aluno57@example.com', 'Luiza Pereira', 61.1, 169, 25),
+    ('aluno58@example.com', 'Eduardo Alves', 92.4, 188, 32),
+    ('aluno59@example.com', 'Amanda Silva', 57.2, 163, 26),
+    ('aluno60@example.com', 'Pedro Almeida', 78.7, 180, 29);
+
+
+
+
+
