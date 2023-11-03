@@ -1,0 +1,85 @@
+<!--
+#f4f4f4 - branco
+#4aec86 - verde claro (Trocar por verde água mais escuro)
+#de6969 - vermelho claro (Trocar pelo escuro dependendo da situação)
+#fff - branco
+#ddd - branco
+#000000 - preto
+#055138 - verde escuro (Água)
+-->
+<!-- Login -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tela de Login </title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #4aec86;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: #055138;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(54, 241, 151, 0.2);
+            text-align: center;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .login-container h1 {
+            font-size: 24px;
+        }
+
+        .input-group {
+            margin: 20px 0;
+        }
+
+        .input-group label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #4aec86;
+            border-radius: 3px;
+        }
+
+        .login-button {
+            background-color: #4aec86;
+            color: #de6969;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1> Login </h1>
+        <form>
+            <div class="input-group">
+                <label for="username"> Usuário: </label>
+                <input type="text" id="username" name="username" placeholder="Seu usuário">
+            </div>
+            <div class="input-group">
+                <label for="password"> Senha: </label>
+                <input type="password" id="password" name="password" placeholder="Sua senha">
+            </div>
+            <button class="login-button" type="submit"> Acessar </button>
+        </form>
+    </div>
+</body>
+</html>
