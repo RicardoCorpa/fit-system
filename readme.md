@@ -51,6 +51,8 @@ Ricardo Allison Corpa Alfenas
 
 ## Modelo conceitual
 
+![Modelagem](/modelagem-conceitual/Captura de tela 2023-10-26 192740.png)
+
 
 ## Paleta de cores
 
