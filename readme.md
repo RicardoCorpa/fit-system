@@ -54,15 +54,15 @@ Ricardo Allison Corpa Alfenas
 ![Modelagem](https://raw.githubusercontent.com/RicardoCorpa/fit-system/main/modelagem-conceitual/Captura%20de%20tela%202023-10-26%20192740.png)
 
 
-## Paleta de cores
+## Paleta de cores (Principal)
 
-#00bf63
+#00bf63 - verde claro
 
-#ed2024
+#ed2024 - vermelho
 
-#3bbca1
+#3bbca1 - verde água
 
-#000000
+#000000 - preto
 
 ## Paleta de cores (Alternativa e gradiente)
 
