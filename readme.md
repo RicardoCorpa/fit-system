@@ -51,7 +51,7 @@ Ricardo Allison Corpa Alfenas
 
 ## Modelo conceitual
 
-![Modelagem]( /modelagem-conceitual/Captura de tela 2023-10-26 192740.png)
+![Modelagem](https://raw.githubusercontent.com/RicardoCorpa/fit-system/main/modelagem-conceitual/Captura%20de%20tela%202023-10-26%20192740.png)
 
 
 ## Paleta de cores
