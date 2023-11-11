@@ -1,235 +1,261 @@
+/* Código na ordem em que deve apresentar no site */
 /*Style tips*/
+
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f4f4f4;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .health-tip {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin: 10px;
-    padding: 20px;
-    width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
 }
 
 .health-tip h2 {
-    font-size: 20px;
-    margin-top: 0;
+  font-size: 20px;
+  margin-top: 0;
 }
 
 .health-tip p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /*-----------------------------------------------//--------------------------------------------*/
-
 /*Style login*/
+
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .login-container {
-    background-color: #156b2b;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(5, 169, 90, 0.2);
-    text-align: center;
-    padding: 20px;
-    width: 300px;
+  background-color: #156b2b;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(5, 169, 90, 0.2);
+  text-align: center;
+  padding: 20px;
+  width: 300px;
 }
 
 .login-container h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .input-group {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .input-group label {
-    display: block;
-    font-weight: bold;
+  display: block;
+  font-weight: bold;
 }
 
 .input-group input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #4ef67b;
-    border-radius: 3px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #4ef67b;
+  border-radius: 3px;
 }
 
 .login-button {
-    background-color: #4ef67b;
-    color: #d6f5d4;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    cursor: pointer;
+  background-color: #4ef67b;
+  color: #d6f5d4;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 /*-------------------------------------------------//-------------------------------------------*/
-
 /*Style calculadora IMC*/
+
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .calculator {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    padding: 20px;
-    width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  width: 300px;
 }
 
 .calculator h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .input-group {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .input-group label {
-    display: block;
-    font-weight: bold;
+  display: block;
+  font-weight: bold;
 }
 
-.input-group input, .input-group select {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #000000;
-    border-radius: 3px;
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #000000;
+  border-radius: 3px;
 }
 
 .calculate-button {
-    background-color: #4ef367;
-    color: #eb7b7b;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    cursor: pointer;
+  background-color: #4ef367;
+  color: #eb7b7b;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 .result {
-    margin-top: 20px;
-    font-weight: bold;
+  margin-top: 20px;
+  font-weight: bold;
 }
 
 /*---------------------------------------------------//-------------------------------------------*/
-
 /*Style marmitas*/
+
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #4aec69;
-    color: #000000;
-    padding: 20px;
-    text-align: center;
+  background-color: #4aec69;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
 }
 
 h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .meal {
-    background-color: #fff;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    margin: 10px 0;
-    padding: 10px;
+  background-color: #fff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
 }
 
 .meal h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .calories {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .description {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 /*-------------------------------------------------//----------------------------------------------*/
-
 /* Style feedback */
 
-        body {
-            background-color: #f4f4f4;
-            font-family: 'Times New Roman', Times, serif;
-            margin: 0;
-            padding: 0;
-        }
+body {
+  background-color: #f4f4f4;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
 
-        header {
-            background-color: #4aec86;
-            color: #000;
-            text-align: center;
-            padding: 20px;
-        }
+header {
+  background-color: #4aec86;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
 
-        h1 {
-            font-size: 24px;
-        }
+h1 {
+  font-size: 24px;
+}
 
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: #fff;
-            border-radius: 5px;
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-        .feedback {
-            background-color: #de6969;
-            color: #fff;
-            padding: 10px;
-            border-radius: 5px;
-            margin: 10px 0;
-        }
+.feedback {
+  background-color: #de6969;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
 
-        .feedback p {
-            margin: 0;
-        }
+.feedback p {
+  margin: 0;
+}
 
-        footer {
-            background-color: #4aec86;
-            color: #000;
-            text-align: center;
-            padding: 10px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
+footer {
+  background-color: #4aec86;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*-----------------------------------------//------------------------------------------------*/
+/* Style histórico */
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+}
+
+#search-box {
+  width: 300px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#search-history {
+  margin-top: 20px;
+}
+
+#clear-history {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
