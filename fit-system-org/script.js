@@ -57,3 +57,22 @@ function clearHistory() {
   var historyList = document.getElementById("search-history");
   historyList.innerHTML = "";
 }
+
+//* ------------------------------------------//---------------------------------------------------*//
+//* Script validação de login *//
+
+function validateLogin() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  var errorMessage = document.getElementById("error-message");
+
+  //* Verifica senha correta *//
+  if (password !== "senhaCorreta") {
+    errorMessage.textContent =
+      "Senha incorreta. Altere ou cadastre no site do SENAC.";
+    return false; //* Impede o acesso *//
+  } else {
+    errorMessage.textContent = ""; //* Limpa a mensagem do erro *//
+    return true; //* Permite o envio *//
+  }
+}

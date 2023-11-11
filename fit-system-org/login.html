@@ -14,7 +14,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tela de Login</title>
+    <title> Tela de Login </title>
     <style>
       body {
         font-family: "Times New Roman", Times, serif;
@@ -64,12 +64,17 @@
         padding: 10px 20px;
         cursor: pointer;
       }
+
+      .error-message {
+        color: #ed2024;
+        margin-top: 10px;
+      }
     </style>
   </head>
   <body>
     <div class="login-container">
-      <h1>Login</h1>
-      <form>
+      <h1> Login </h1>
+      <form onsubmit="return validateLogin()">
         <div class="input-group">
           <label for="username"> Usuário: </label>
           <input
@@ -88,12 +93,34 @@
             placeholder="Sua senha"
           />
         </div>
-        <button class="login-button" type="submit">Acessar</button>
+        <button class="login-button" type="submit"> Acessar </button>
+        <div id="error-message" class="error-message"></div>
       </form>
     </div>
+    <!-- Adicionar lógica ao JS para verificar senha correta ou incorreta -->
+    <script>
+      function validateLogin() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var errorMessage = document.getElementById("error-message");
+
+        //* Verifica senha correta *//
+        if (password !== "senhaCorreta") {
+          errorMessage.textContent =
+            "Senha incorreta. Altere ou cadastre no site do SENAC.";
+          return false; //* Impede o acesso *//
+        } else {
+          errorMessage.textContent = ""; //* Limpa a mensagem do erro *//
+          return true; //* Permite o envio *//
+        }
+      }
+    </script>
   </body>
 </html>
 
+<!-- Tela de senha incorreta (Aprimorar - Cadastre-se ou troque sua senha no site do SENAC 
+"Como se fosse um blackboard" - Interligado) -->
+<!-- Tela de cadastro e banco de dados em conjunto com o site do SENAC -->
 <!-- Modo dark -->
 <!-- Vinheta -->
 <!-- Vinho (Possível mudança, porém apenas um "talvez") -->
