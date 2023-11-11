@@ -22,7 +22,7 @@ Funcionalidade 7 - Deve exibir tela mostrando sugestões de marmitas fitness;
 
 Funcionalidade 8 - Deve exibir tela de feedback do usuário;
 
-Funcionalidade 10 - Deve exibir histórico de consulta do usuário;
+Funcionalidade 9 - Deve exibir histórico de consulta do usuário;
 
 Funcionalidade 10 - Deve exibir copyright.
 
