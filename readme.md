@@ -50,6 +50,16 @@ Ricardo Allison Corpa Alfenas
 
 ![Cadastro]( /Imagens/IMG_0264.jpeg)
 
+![Cadastro]( /Imagens/IMG_0265.jpeg)
+
+![Cadastro]( /Imagens/TelaDeSeleção.jpg)
+
+![Cadastro]( /Imagens/carrinhos.jpeg)
+
+![Cadastro]( /Imagens/figma-prototico-1.png)
+
+
+
 
 
 
