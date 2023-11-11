@@ -44,18 +44,27 @@ Ricardo Allison Corpa Alfenas
 
 ## Imagens Figma
 
-
-
+TELA DE CADASTRO
 ![Cadastro]( /Imagens/Cadastro.jpeg)
 
+
+TELA INICIAL
 ![Cadastro]( /Imagens/IMG_0264.jpeg)
 
+
+TELA MARMITAS INDIVIDUAIS
 ![Cadastro]( /Imagens/IMG_0265.jpeg)
 
+
+TELA SELECIONAR MARMITAS
 ![Cadastro]( /Imagens/TelaDeSeleção.jpg)
 
+
+TELA CARRINHO
 ![Cadastro]( /Imagens/carrinhos.jpeg)
 
+
+TELA CADASTRO
 ![Cadastro]( /Imagens/figma-prototico-1.png)
 
 
