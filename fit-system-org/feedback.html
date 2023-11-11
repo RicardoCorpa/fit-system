@@ -23,8 +23,8 @@
       }
 
       header {
-        background-color: #000000;
-        color: #ed2024;
+        background-color: #ed2024;
+        color: #000000;
         text-align: center;
         padding: 20px;
       }
@@ -40,11 +40,12 @@
         border-radius: 5px;
         padding: 20px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow-y: auto; /* Adicionado para incluir barra de rolagem vertical quando necessário */
       }
 
       .feedback {
-        background-color: #ed2024;
-        color: #00bf63;
+        background-color: #000000;
+        color: #f4f4f4;
         padding: 10px;
         border-radius: 5px;
         margin: 10px 0;
@@ -52,6 +53,38 @@
 
       .feedback p {
         margin: 0;
+      }
+
+      .feedback-form {
+        background-color: #000000;
+        color: #f4f4f4;
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+
+      .feedback-form h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .feedback-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #f4f4f4;
+        border-radius: 3px;
+        resize: vertical;
+      }
+
+      .feedback-form button {
+        background-color: #fff;
+        color: #000;
+        border: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 10px;
       }
 
       footer {

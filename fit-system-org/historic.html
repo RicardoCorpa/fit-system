@@ -3,43 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Histórico de consulta</title>
+    <title>Histórico de Consulta</title>
     <style>
       body {
         font-family: "Times New Roman", Times, serif;
         margin: 20px;
+        background-color: #3bbca1; /* Fundo branco */
+        color: #000; /* Texto preto */
+      }
+
+      #container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ddd; /* Fundo branco mais escuro */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       }
 
       #search-box {
-        width: 300px;
-        padding: 8px;
+        width: 100%;
+        padding: 10px;
         font-size: 16px;
+        margin-bottom: 10px;
+        border: 1px solid #000; /* Borda preta */
+        border-radius: 5px;
       }
 
       #search-history {
-        margin-top: 20px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      #search-history li {
+        background-color: #ed2024; /* Fundo branco */
+        padding: 8px;
+        margin-bottom: 5px;
+        border: 1px solid #000; /* Borda preta */
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      #search-history li:hover {
+        background-color: #f4f4f4; /* Fundo branco mais claro ao passar o mouse */
       }
 
       #clear-history {
-        margin-top: 10px;
-        padding: 5px 10px;
+        padding: 10px;
+        background-color: #00bf63; /* Vermelho escuro */
+        color: #fff; /* Texto branco */
+        border: none;
+        border-radius: 5px;
         cursor: pointer;
+      }
+
+      #clear-history:hover {
+        background-color: #ed2024; /* Vermelho mais escuro ao passar o mouse */
       }
     </style>
   </head>
   <body>
-    <h2>Histórico de consulta</h2>
+    <div id="container">
+      <h2>Histórico de consulta por data</h2>
 
-    <input type="text" id="search-box" placeholder="Colsulte" />
+      <input type="text" id="search-box" placeholder="Consulte" />
 
-    <ul id="search-history"></ul>
+      <ul id="search-history"></ul>
 
-    <button id="clear-history" onclick="clearHistory()">
-      Limpar consultas
-    </button>
+      <button id="clear-history" onclick="clearHistory()">
+        Limpar consultas
+      </button>
+    </div>
 
     <script>
-      //* Adicionar itens consultados //*
+      //* Adicionar itens consultados *//
       function addToHistory() {
         var searchTerm = document.getElementById("search-box").value;
 
