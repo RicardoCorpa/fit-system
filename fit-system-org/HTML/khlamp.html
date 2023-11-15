@@ -1,0 +1,80 @@
+<!-- Tentar implementação deste código na tela de login, talvez na tela de feedback -->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Controle de luz - Login & Feedback</title>
+    <!-- <link rel="stylesheet" type="text/css" href="stylelamp.css"> (Recriar a lâmpada)-->
+  </head>
+  <!-- <script src="scriptlamp.js"></script> -->
+  <body>
+    <div class="lamp-wrapper">
+      <div class="lamp-rope"></div>
+      <div class="lamp">
+        <div class="lamp-part lamp-top">
+          <div class="lamp-part lamp-body"></div>
+          <div class="lamp-part lamp-body right"></div>
+          <div class="lamp-part lamp-bottom"></div>
+          <div class="blub"></div>
+        </div>
+        <div class="wall-light-shadow"></div>
+      </div>
+      <form oninput="body.setAttribute('data-light', slider.value)">
+        <div class="icon sun">
+          <div class="ray"></div>
+          <div class="ray"></div>
+          <div class="ray"></div>
+          <div class="ray"></div>
+          <div class="ray"></div>
+          <div class="ray"></div>
+          <div class="ray"></div>
+          <div class="ray"></div>
+        </div>
+        <input type="range" id="slider" value="0" min="0" max="10" />
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- ================================================//============================================== -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Controle de luz - Login & Feedback</title>
+    <link rel="stylesheet" type="text/css" href="stylelamp.css">
+    <script src="scriptlamp.js"></script>
+</head>
+<body>
+    <div class="lamp-wrapper">
+        <div class="lamp-rope"></div>
+        <div class="lamp">
+            <div class="lamp-part lamp-top">
+                <div class="lamp-part lamp-body"></div>
+                <div class="lamp-part lamp-body right"></div>
+                <div class="lamp-part lamp-bottom"></div>
+                <div class="blub"></div>
+            </div>
+            <div class="wall-light-shadow"></div>
+        </div>
+        <form oninput="body.setAttribute('data-light', slider.value)">
+            <div class="icon sun">
+                <div class="ray"></div>
+                <div class="ray"></div>
+                <div class="ray"></div>
+                <div class="ray"></div>
+                <div class="ray"></div>
+                <div class="ray"></div>
+                <div class="ray"></div>
+                <div class="ray"></div>
+            </div>
+            <input type="range" id="slider" value="0" min="0" max="10">
+        </form>
+    </div>
+    <div class="login-container">
+        (Tela de login aqui)
+    </div>
+</body>
+</html>
+-->

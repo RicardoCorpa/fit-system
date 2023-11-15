@@ -1,0 +1,158 @@
+<!--
+#f4f4f4 - branco
+#4aec86 - verde claro (Trocar por verde água mais escuro)
+#de6969 - vermelho claro (Trocar pelo escuro dependendo da situação)
+#fff - branco
+#ddd - branco
+#000000 - preto
+#055138 - verde escuro (Água)
+-->
+<!-- Login -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- <title> Modo Dark </title>
+    <script src="testescriptlamp.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="testelamp.css" />
+  </head>
+  <body>
+    <label>
+      <input type="checkbox" name="checkbox" class="toggle-checkbox" />
+      <div class="toggle-slot">
+        <div class="sun-icon-wrapper">
+          <div
+            class="iconify sun-icon"
+            data-icon="feather-sun"
+            data-inline="false"
+          ></div>
+        </div>
+
+        <div class="toggle-button"></div>
+        <div class="moon-icon-wrapper">
+          <div
+            class="iconify moon-icon"
+            data-icon="feather-moon"
+            data-inline="false"
+          ></div>
+        </div>
+      </div>
+    </label>
+  </body> 
+-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de Login</title>
+    <img src="" alt=""> <!-- Colocar logo -->
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #3bbca093;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .login-container {
+        background-color: #00bf63;
+        border-radius: 5px;
+        box-shadow: 4px 4px 10px black;
+        text-align: center;
+        padding: 20px;
+        width: 300px;
+  
+      }
+
+      .login-container h1 {
+        font-size: 20px;
+      }
+
+      .input-group {
+        margin: 20px 0;
+      }
+
+      .input-group label {
+        display: block;
+        font-weight: bold;
+      }
+
+      .input-group input {
+        width: 100%;
+        padding: 7px;
+        margin-top: 3px;
+        margin-bottom: 10px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+      }
+
+      .login-button {
+        background-color: #000000;
+        color: #f4f4f4;
+        border: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+
+      .error-message {
+        color: #ed2024;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>Login</h1>
+      <form onsubmit="return validateLogin()">
+        <div class="input-group">
+          <label for="username"> Usuário: </label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Seu usuário"
+          />
+        </div>
+        <div class="input-group">
+          <label for="password"> Senha: </label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Sua senha"
+          />
+        </div>
+        <button class="login-button" type="submit">Acessar</button>
+        <div id="error-message" class="error-message"></div>
+      </form>
+    </div>
+    <!-- Adicionar lógica ao JS para verificar senha correta ou incorreta -->
+    <script>
+      function validateLogin() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var errorMessage = document.getElementById("error-message");
+
+        //* Verifica senha correta *//
+        if (password !== "senhaCorreta") {
+          errorMessage.textContent =
+            "Senha incorreta. Altere ou cadastre no site do SENAC.";
+          return false; //* Impede o acesso *//
+        } else {
+          errorMessage.textContent = ""; //* Limpa a mensagem do erro *//
+          return true; //* Permite o envio *//
+        }
+      }
+    </script>
+  </body>
+</html>
+
+<!-- Tela de senha incorreta (Aprimorar - Cadastre-se ou troque sua senha no site do SENAC 
+"Como se fosse um blackboard" - Interligado) -->
+<!-- Tela de cadastro e banco de dados em conjunto com o site do SENAC -->
+<!-- Modo dark -->
+<!-- Vinheta -->
+<!-- Vinho (Possível mudança, porém apenas um "talvez") -->
