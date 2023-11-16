@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         emailRequired: "O email é obrigatório.",
         emailValid: "Digite um email válido.",
         passwordRequired: "A senha é obrigatória.",
-        passwordLength: "A senha precisa ter no mínimo 8 caracteres.",
+        passwordLength: "A senha precisa ter no mínimo 4 caracteres.",
     };
 
     form.addEventListener("submit", function (event) {
@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             validateInputPassword(password, errorMessages.passwordRequired, errorMessages.passwordLength)
         ) {
             alert("Login efetuado com sucesso!");
+            window.location.href='../index.html';
         } else {
             alert("Por favor, preencha todos os campos corretamente.");
         }
@@ -58,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (value === "") {
             showError(input, requiredMessage);
             return false;
-        } else if (value.length < 8) {
+        } else if (value.length < 4) {
             showError(input, lengthMessage);
             return false;
         } else {
