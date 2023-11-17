@@ -6,7 +6,7 @@ Este é um projeto integrador desenvolvido por Ricardo, Paulo, Elias, Lucas, Leo
 
 ## Lista de funcionalidades
 
-Funcionalidade 1 - Deve exibir tela inicial com as dicas de saúde e instruções para melhorar sua rotina
+Funcionalidade 1 - Deve exibir tela inicial com as dicas de saúde e instruções para melhorar sua rotina;
 
 Funcionalidade 2 - Deve exibir a tela de login;
 
