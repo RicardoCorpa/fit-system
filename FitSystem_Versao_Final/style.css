@@ -31,13 +31,18 @@ html {
     position: fixed;
     padding-left: auto;
 }
+.bo {
+    padding: 20px;
+
+}
 
 .logo {
     width: auto;
     height: auto;
     cursor: pointer;
     display: flex;
-    ;
+    border: 4px;
+
     align-items: center;
 }
 
