@@ -1,6 +1,6 @@
-# Projeto Integrador - Fit-System - Calculadora IMC para os alunos do SENAC
+# Projeto Integrador - fit-system - Lanchonete & Calculadora IMC para os alunos do SENAC
 
-## Um projeto que consiste em desenvolver um site de orientção nutricional com uma calculadora IMC para controle de alimentação e saúde, com motivação de propagar e incentivar uma boa refeição por parte dos alunos do SENAC
+## Um projeto que consiste em desenvolver um site de orientção nutricional com uma Lanchonete & Calculadora IMC para controle de alimentação e saúde, com motivação de propagar e incentivar uma boa refeição por parte dos alunos do SENAC
 
 Este é um projeto integrador desenvolvido por Ricardo, Paulo, Elias, Lucas, Leonardo e Pedro para a disciplina de: Projeto Integrador: Desenvolvimento de Sistemas Orientado a Objetos
 
@@ -18,13 +18,15 @@ Funcionalidade 5 - Deve exibir cálculo com base na altura;
 
 Funcionalidade 6 - Deve exibir cálculo com base no sexo do indivíduo;
 
-Funcionalidade 7 - Deve exibir tela mostrando sugestões de marmitas fitness;
+Funcionalidade 7 - Deve exibir a lanchonete;
 
-Funcionalidade 8 - Deve exibir tela de feedback do usuário;
+Funcionalidade 8 - Deve exibir tela mostrando sugestões de marmitas fitness;
 
-Funcionalidade 9 - Deve exibir histórico de consulta do usuário;
+Funcionalidade 9 - Deve exibir tela de feedback do usuário;
 
-Funcionalidade 10 - Deve exibir copyright.
+Funcionalidade 10 - Deve exibir histórico de consulta do usuário;
+
+Funcionalidade 11 - Deve exibir copyright.
 
 
 
