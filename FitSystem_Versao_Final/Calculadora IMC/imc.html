@@ -1,0 +1,55 @@
+<!--
+#f4f4f4 - branco
+#4aec86 - verde claro (Trocar por verde água mais escuro)
+#de6969 - vermelho claro (Trocar pelo escuro dependendo da situação)
+#fff - branco
+#ddd - branco
+#000000 - preto
+-->
+<!-- Calculadora IMC -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="styleIMC.css"/>
+</head>
+
+  <body>
+    <div class="calculadora">
+      <h1>Calculadora IMC</h1>
+      <div class="entrada">
+        <label for="peso"> Peso em (kg): </label>
+        <input type="numero" id="peso" name="altura" step="0.01" />
+      </div>
+      
+      <div class="entrada">
+        <label for="altura"> Altura em (m): </label>
+        <input type="numero" id="peso" name="altura" step="0.01" />
+      </div>
+      
+      <div class="entrada">
+        <label for="genero"> Sexo: </label>
+        <select id="genero" name="genero">
+          <option value="masculino">Masculino</option>
+          <option value="feminino">Feminino</option>
+        </select>
+      </div>
+      
+      <div class="entrada">
+        <label for="idade"> Idade: </label>
+        <input type="numero" id="idade" name="idade" />
+      </div>
+      
+      <button class="botaoCalculadora" onclick="calculateIMC()">
+        Calcular IMC
+      </button>
+      <div class="resultado" id="resultado"></div>
+    </div>
+    
+    <script src="/Calculadora IMC/scriptIMC.js"></script>
+  </body>
+</html>

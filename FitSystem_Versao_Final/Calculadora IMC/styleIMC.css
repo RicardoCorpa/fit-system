@@ -1,0 +1,55 @@
+body {
+    background-image: url('https://revistainterativa.org/wp-content/uploads/2019/11/pessoas-dividindo-comida-em-cima-mesa.jpg');
+    font-family: "Times New Roman", Times, serif;
+    background-color: #3bbca1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculadora {
+    background-color: #00bf63;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+
+.calculadora h1 {
+    font-size: 24px;
+}
+
+.entrada {
+    margin: 20px 0;
+}
+
+.entrada label {
+    display: block;
+    font-weight: bold;
+}
+
+.entrada input,
+.entrada select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+.botaoCalculadora {
+    background-color: #ed2024;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}

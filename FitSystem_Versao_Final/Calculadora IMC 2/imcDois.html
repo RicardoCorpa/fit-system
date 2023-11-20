@@ -1,0 +1,138 @@
+<!--
+#f4f4f4 - branco
+#4aec86 - verde claro (Trocar por verde água mais escuro)
+#de6969 - vermelho claro (Trocar pelo escuro dependendo da situação)
+#fff - branco
+#ddd - branco
+#000000 - preto
+-->
+<!-- Calculadora IMC -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de IMC</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #3bbca1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .calculator {
+        background-color: #00bf63;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding: 20px;
+        width: 300px;
+      }
+
+      .calculator h1 {
+        font-size: 24px;
+      }
+
+      .input-group {
+        margin: 20px 0;
+      }
+
+      .input-group label {
+        display: block;
+        font-weight: bold;
+      }
+
+      .input-group input,
+      .input-group select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+      }
+
+      .calculate-button {
+        background-color: #ed2024;
+        color: #f4f4f4;
+        border: none;
+        border-radius: 3px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+
+      .result {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Calculadora">
+      <h1>Calculadora de IMC</h1>
+      <div class="input-group">
+        <label for="Peso"> Peso em (kg): </label>
+        <input type="Número" id="Peso" name="Altura" step="0.01" />
+      </div>
+      <div class="input-group">
+        <label for="height"> Altura em (m): </label>
+        <input type="Número" id="Peso" name="Altura" step="0.01" />
+      </div>
+      <div class="input-group">
+        <label for="Gênero"> Sexo: </label>
+        <select id="Gênero" name="Gênero">
+          <option value="Masculino">Masculino</option>
+          <option value="Feminino">Feminino</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="Idade"> Idade: </label>
+        <input type="Número" id="Idade" name="Idade" />
+      </div>
+      <button class="Botão da calculadora" onclick="calculateIMC()">
+        Calcular IMC
+      </button>
+      <div class="Resultado" id="Resultado"></div>
+    </div>
+
+    <script>
+      function calculateIMC() {
+        const weight = parseFloat(document.getElementById("Peso").value);
+        const height = parseFloat(document.getElementById("Altura").value);
+        const gender = document.getElementById("Gênero").value;
+        const age = parseInt(document.getElementById("Idade").value);
+        const imc = weight / (height * height);
+
+        let result = "Seu IMC é de: " + imc.toFixed(2) + " - ";
+
+        if (gender === "Masculino") {
+          if (imc < 18.5) {
+            result += "Abaixo do peso.";
+          } else if (imc < 24.9) {
+            result += "Peso normal.";
+          } else if (imc < 29.9) {
+            result += "Sobrepeso.";
+          } else {
+            result += "Obeso.";
+          }
+        } else {
+          if (imc < 18.5) {
+            result += "Abaixo do peso.";
+          } else if (imc < 23.9) {
+            result += "Peso normal.";
+          } else if (imc < 28.9) {
+            result += "Sobrepeso.";
+          } else {
+            result += "Obeso.";
+          }
+        }
+
+        document.getElementById("Resultado: ").textContent = result;
+      }
+    </script>
+  </body>
+</html>
