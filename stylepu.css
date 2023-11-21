@@ -1,0 +1,109 @@
+
+.perfil {
+    width: 80%;
+    margin: 2rem auto 4rem; /* Adiciona margem inferior de 4rem */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+}
+
+
+.perfil h2 {
+    font-size: 4rem;
+    text-align: center;
+    color: #3ADC2C;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', cursive;
+   
+
+
+    text-shadow: 4px 4px 6px rgb(255, 255, 255);
+}
+
+
+.perfil-info {
+    width: 100%; 
+}
+
+
+.perfil-details {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'Nova Fonte', sans-serif; 
+}
+
+
+.perfil-details label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #000000;
+    display: block;
+}
+
+
+.perfil-details p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+
+.editar-perfil {
+    width: 200px;
+    height: 35px;
+    margin-top: 1rem;
+    background-color: #3ADC2C;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: all 200ms ease-in;
+}
+
+
+.editar-perfil:hover {
+    background-color: #000000;
+    color: #3ADC2C;
+}
+
+
+.footer-background {
+    background-color: #3ADC2C;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: 'Montserrat', sans-serif; /* Substitua 'Nova Fonte' pela fonte desejada */
+    margin-top: 2rem; /* Adiciona margem superior de 2rem */
+}
+
+
+
+footer h4 {
+    color: #000000;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.6rem;
+}
+
+
+body {
+    position: relative; 
+    margin-bottom: 100px; 
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #3ADC2C;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/*Tela de visualização de informações do perfil*/
