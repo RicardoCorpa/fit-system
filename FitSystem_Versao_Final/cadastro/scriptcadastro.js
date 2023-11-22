@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const passwordConfirmation = document.getElementById("password-confirmation");
     
     const errorMessages = {
-        username: "Preencha um username!",
+        username: "Preencha um nome de usuário!",
         emailRequired: "O email é obrigatório.",
         emailValid: "Digite um email válido.",
         passwordRequired: "A senha é obrigatória.",

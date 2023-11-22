@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const password = document.getElementById("password");
 
     const errorMessages = {
-        emailRequired: "O email é obrigatório.",
-        emailValid: "Digite um email válido.",
+        emailRequired: "O e-mail é obrigatório.",
+        emailValid: "Digite um e-mail válido.",
         passwordRequired: "A senha é obrigatória.",
         passwordLength: "A senha precisa ter no mínimo 4 caracteres.",
     };

@@ -33,7 +33,7 @@ body{
     background: linear-gradient(120deg, #00bf63 0%, #3bbca1 100%);
     padding: 24px;
     text-align: center;
-    color: #FFF;
+    color: #000000;
 
      }
 
@@ -72,7 +72,7 @@ body{
 
     .form button{
             background-color: #000000;
-            color: #3bbca1 ;
+            color: #f4f4f4 ;
             width: 100%;
             border-radius: 14px;
             padding: 10px;
